@@ -3,10 +3,7 @@
 My name is [Alan Medina](https://alanmedina.me/) and I created this project as a starting point for my React applications. I used Webpack, but recently I've been using the awesome [ParcelJS bundler](https://parceljs.org/), which requires almost no configuration.
 
 [![License][license-badge]](#license)
-
 [![PRs Welcome][prs-badge]][prs]
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
 
 ## Table of Contents
 
@@ -91,8 +88,3 @@ I ran into [this amazing article](https://www.valentinog.com/blog/from-gulp-to-w
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
-[github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/testing-workshop.svg?style=social
-[github-watch]: https://github.com/spacebromx/webpack-bundle/watchers
-[github-star-badge]: https://img.shields.io/github/stars/kentcdodds/testing-workshop.svg?style=social
-[github-star]: https://github.com/spacebromx/webpack-bundle/stargazers
-
