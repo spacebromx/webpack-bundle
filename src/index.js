@@ -1,2 +1,3 @@
 /* eslint-disable */
-import App from "./components/App";
+import 'babel-polyfill'
+import App from './components/App'

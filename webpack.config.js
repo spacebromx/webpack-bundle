@@ -2,6 +2,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
+  entry: ['babel-polyfill', './src/index.js'],
   module: {
     rules: [
       {
@@ -23,14 +24,14 @@ module.exports = {
         test: /\.(png|jpe?g)/i,
         use: [
           {
-            loader: "url-loader",
+            loader: 'url-loader',
             options: {
-              name: "./img/[name].[ext]",
+              name: './img/[name].[ext]',
               limit: 10000
             }
           },
           {
-            loader: "img-loader"
+            loader: 'img-loader'
           }
         ]
       },
@@ -38,19 +39,19 @@ module.exports = {
         test: /\.(sa|sc|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          "css-loader",
+          'css-loader',
           {
-            loader: "postcss-loader",
+            loader: 'postcss-loader',
             options: {
               ident: 'postcss',
               plugins: [
                 require('autoprefixer')({
                   'browsers': ['> 1%', 'last 2 versions']
-                }),
+                })
               ]
             }
           },
-          "sass-loader"
+          'sass-loader'
         ]
       }
     ]
